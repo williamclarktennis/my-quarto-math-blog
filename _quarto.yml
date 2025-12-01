@@ -1,6 +1,5 @@
 project:
   type: website
-  base-url: "/my-quarto-math-blog/"   # <-- HERE, under project
 
 website:
   title: "My Math Blog"
@@ -18,7 +17,7 @@ format:
     toc: true
     toc-depth: 3
     math-method: mathjax
-    relative-links: true
+    relative-links: true   # <-- THIS is the key
     css: styles/math.css
     site-navbar-search: true
 
