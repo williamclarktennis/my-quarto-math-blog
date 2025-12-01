@@ -1,9 +1,7 @@
 project:
   type: website
+  base-url: "/my-quarto-math-blog/"   # <-- HERE, under project
 
-# -----------------------------------
-# Website metadata
-# -----------------------------------
 website:
   title: "My Math Blog"
   description: "Daily math notes and references"
@@ -13,33 +11,20 @@ website:
         href: index.qmd
       - text: "Posts"
         href: posts/
-  # Required for GitHub Pages project site
-  base-url: "/my-quarto-math-blog/"
 
-# -----------------------------------
-# HTML formatting options
-# -----------------------------------
 format:
   html:
     theme: cosmo
     toc: true
     toc-depth: 3
-    math-method: mathjax   # Use MathJax for math rendering
-    relative-links: true   # <-- ensures links work on GitHub Pages
-    include-in-header: preamble.tex
+    math-method: mathjax
+    relative-links: true
     css: styles/math.css
-    show-page-number: false
     site-navbar-search: true
 
-# -----------------------------------
-# Bibliography
-# -----------------------------------
 bibliography: refs/references.bib
 csl: refs/ams.csl
 
-# -----------------------------------
-# Post settings
-# -----------------------------------
 execute:
   echo: true
   warning: false
