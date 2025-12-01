@@ -10,6 +10,9 @@ website:
       - text: "Posts"
         href: posts/
 
+# <--- ADD THIS
+site-url: "https://williamclarktennis.github.io/my-quarto-math-blog/"
+
 format:
   html:
     theme: cosmo
