@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0">
+  <info>
+    <title>American Mathematical Society</title>
+    <id>ams</id>
+  </info>
+
+  <citation>
+    <layout prefix="[" suffix="]" delimiter=", ">
+      <text variable="author"/>
+      <text variable="year"/>
+    </layout>
+  </citation>
+
+  <bibliography>
+    <layout>
+      <text variable="author"/>
+      <text variable="year" prefix=" (" suffix=")"/>
+      <text variable="title" prefix=", "/>
+      <text variable="publisher" prefix=", "/>
+    </layout>
+  </bibliography>
+</style>

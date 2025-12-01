@@ -1,0 +1,28 @@
+---
+title: "First Post"
+date: 2025-01-01
+categories: [math]
+---
+
+# A Sample Math Post
+
+Here is an integral:
+
+\[
+\int_0^\infty e^{-x^2}\,dx = \frac{\sqrt{\pi}}{2}.
+\]
+
+## Theorem Example
+
+::: {.theorem #thm-gaussian}
+**Theorem.** The Gaussian integral satisfies  
+\[
+\int_{-\infty}^\infty e^{-x^2}\,dx = \sqrt{\pi}.
+\]
+:::
+
+We can reference it: see Theorem @thm-gaussian.
+
+## Citation Example
+
+A reference to Tao's nonlinear wave equations book: @tao2006nonlinear.
