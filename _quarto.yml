@@ -1,27 +1,46 @@
 project:
   type: website
 
+# -----------------------------------
+# Website metadata
+# -----------------------------------
 website:
   title: "My Math Blog"
+  description: "Daily math notes and references"
   navbar:
     left:
       - text: "Home"
         href: index.qmd
       - text: "Posts"
         href: posts/
+  # Required for GitHub Pages project site
+  base-url: "/my-quarto-math-blog/"
 
-# <--- ADD THIS
-site-url: "https://williamclarktennis.github.io/my-quarto-math-blog/"
-
+# -----------------------------------
+# HTML formatting options
+# -----------------------------------
 format:
   html:
     theme: cosmo
     toc: true
     toc-depth: 3
-    linestretch: 1.2
+    math-method: mathjax   # Use MathJax for math rendering
+    relative-links: true   # <-- ensures links work on GitHub Pages
     include-in-header: preamble.tex
     css: styles/math.css
-    html-math-method: mathjax
+    show-page-number: false
+    site-navbar-search: true
 
+# -----------------------------------
+# Bibliography
+# -----------------------------------
 bibliography: refs/references.bib
 csl: refs/ams.csl
+
+# -----------------------------------
+# Post settings
+# -----------------------------------
+execute:
+  echo: true
+  warning: false
+  error: false
