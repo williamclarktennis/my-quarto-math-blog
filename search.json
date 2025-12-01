@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Welcome to My Math Blog\nThis is my Quarto-based blog for daily mathematical notes.\nMath example:\n[ e^{i} = () + i() ]\nSee the posts page for entries."
+  },
+  {
+    "objectID": "posts/2025-01-01-first-post.html",
+    "href": "posts/2025-01-01-first-post.html",
+    "title": "First Post",
+    "section": "",
+    "text": "Here is an integral:\n[ _0e{-x^2},dx = . ]\n\n\n\nTheorem 1 Theorem. The Gaussian integral satisfies\n[ _{-}e{-x^2},dx = . ]\n\nWe can reference it: see Theorem Theorem 1.\n\n\n\nA reference to Tao’s nonlinear wave equations book:.1"
+  },
+  {
+    "objectID": "posts/2025-01-01-first-post.html#theorem-example",
+    "href": "posts/2025-01-01-first-post.html#theorem-example",
+    "title": "First Post",
+    "section": "",
+    "text": "Theorem 1 Theorem. The Gaussian integral satisfies\n[ _{-}e{-x^2},dx = . ]\n\nWe can reference it: see Theorem Theorem 1."
+  },
+  {
+    "objectID": "posts/2025-01-01-first-post.html#citation-example",
+    "href": "posts/2025-01-01-first-post.html#citation-example",
+    "title": "First Post",
+    "section": "",
+    "text": "A reference to Tao’s nonlinear wave equations book:.1"
+  },
+  {
+    "objectID": "posts/2025-01-01-first-post.html#footnotes",
+    "href": "posts/2025-01-01-first-post.html#footnotes",
+    "title": "First Post",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n↩︎"
+  }
+]
